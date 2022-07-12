@@ -123,6 +123,23 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &492711175 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 50333809385771019, guid: 2c61ea4f3b4df6341bbdd44e84d92e8c, type: 3}
+  m_PrefabInstance: {fileID: 1859243077106479319}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &492711183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492711175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11262d88c0196034b83d073f2d1fb124, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -314,7 +331,7 @@ GameObject:
   - component: {fileID: 1787126820}
   - component: {fileID: 1787126819}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Obstacle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -414,6 +431,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2856628276840687376, guid: 95387987b73d78f4ba05bf7b90c9c5be, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 140
+      objectReference: {fileID: 0}
+    - target: {fileID: 2856628276840687376, guid: 95387987b73d78f4ba05bf7b90c9c5be, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -466,10 +487,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rocket
       objectReference: {fileID: 0}
-    - target: {fileID: 3318391683955539125, guid: 2c61ea4f3b4df6341bbdd44e84d92e8c, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 66b2b842df3c88245afe4ce8e0da6e97, type: 2}
     - target: {fileID: 4031718655697145198, guid: 2c61ea4f3b4df6341bbdd44e84d92e8c, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -571,6 +588,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LandingPad
       objectReference: {fileID: 0}
+    - target: {fileID: 2834138148700035151, guid: 620078064719e4049845afa342a87a52, type: 3}
+      propertyPath: m_TagString
+      value: Finish
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 620078064719e4049845afa342a87a52, type: 3}
 --- !u!1001 &7882239451288972914
@@ -583,6 +604,10 @@ PrefabInstance:
     - target: {fileID: 4344180981258127394, guid: 914067a66b1da6a4a9ec8647fdc9f389, type: 3}
       propertyPath: m_Name
       value: LaunchPad
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344180981258127394, guid: 914067a66b1da6a4a9ec8647fdc9f389, type: 3}
+      propertyPath: m_TagString
+      value: Friendly
       objectReference: {fileID: 0}
     - target: {fileID: 6962178464747543912, guid: 914067a66b1da6a4a9ec8647fdc9f389, type: 3}
       propertyPath: m_RootOrder
