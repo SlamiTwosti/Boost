@@ -123,23 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &492711175 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 50333809385771019, guid: 2c61ea4f3b4df6341bbdd44e84d92e8c, type: 3}
-  m_PrefabInstance: {fileID: 1859243077106479319}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &492711183
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 492711175}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 11262d88c0196034b83d073f2d1fb124, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -530,6 +513,10 @@ PrefabInstance:
     - target: {fileID: 4031718655697145198, guid: 2c61ea4f3b4df6341bbdd44e84d92e8c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7358472268908492520, guid: 2c61ea4f3b4df6341bbdd44e84d92e8c, type: 3}
+      propertyPath: rotationThrust
+      value: 155
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c61ea4f3b4df6341bbdd44e84d92e8c, type: 3}
