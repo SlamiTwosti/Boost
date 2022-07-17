@@ -353,7 +353,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ca75e8854a21b904abb7ce24938df972, type: 2}
+  - {fileID: 2100000, guid: 3dde060a1b6576846becf0aa9902e970, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -391,8 +391,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1787126818}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 9, z: 0}
-  m_LocalScale: {x: 9.293014, y: 9.494037, z: 10.769438}
+  m_LocalPosition: {x: 0, y: 25.29, z: 0}
+  m_LocalScale: {x: 9.293014, y: 31.920795, z: 10.769438}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -412,10 +412,6 @@ PrefabInstance:
     - target: {fileID: 2856628276840687376, guid: 95387987b73d78f4ba05bf7b90c9c5be, type: 3}
       propertyPath: m_RootOrder
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2856628276840687376, guid: 95387987b73d78f4ba05bf7b90c9c5be, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 140
       objectReference: {fileID: 0}
     - target: {fileID: 2856628276840687376, guid: 95387987b73d78f4ba05bf7b90c9c5be, type: 3}
       propertyPath: m_LocalPosition.x
@@ -571,10 +567,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: LandingPad
       objectReference: {fileID: 0}
-    - target: {fileID: 2834138148700035151, guid: 620078064719e4049845afa342a87a52, type: 3}
-      propertyPath: m_TagString
-      value: Finish
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 620078064719e4049845afa342a87a52, type: 3}
 --- !u!1001 &7882239451288972914
@@ -587,10 +579,6 @@ PrefabInstance:
     - target: {fileID: 4344180981258127394, guid: 914067a66b1da6a4a9ec8647fdc9f389, type: 3}
       propertyPath: m_Name
       value: LaunchPad
-      objectReference: {fileID: 0}
-    - target: {fileID: 4344180981258127394, guid: 914067a66b1da6a4a9ec8647fdc9f389, type: 3}
-      propertyPath: m_TagString
-      value: Friendly
       objectReference: {fileID: 0}
     - target: {fileID: 6962178464747543912, guid: 914067a66b1da6a4a9ec8647fdc9f389, type: 3}
       propertyPath: m_RootOrder
