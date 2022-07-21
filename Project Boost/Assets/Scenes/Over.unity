@@ -462,6 +462,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 492711183, guid: 2c61ea4f3b4df6341bbdd44e84d92e8c, type: 3}
+      propertyPath: levelLoadDelay
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 50333809385771019, guid: 2c61ea4f3b4df6341bbdd44e84d92e8c, type: 3}
       propertyPath: m_Name
       value: Rocket
